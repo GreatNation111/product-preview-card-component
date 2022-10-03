@@ -1,0 +1,78 @@
+
+body{
+    background-color:hsl(0, 37%, 92%);
+    margin: 0;
+ 
+}
+ 
+#main{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#main>img{
+    height: 11.9rem;
+    border-top-left-radius:0.5rem ;
+    border-top-right-radius:0.5rem ;
+}
+
+.text{
+    width:15rem;
+    padding: 1rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius:0.5rem ;
+    background-color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+.text>p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+.text>h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+} 
+#span{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+    font-size: 27px;
+
+}
+#superscript{
+      text-decoration: line-through;
+      margin-left: 1rem;
+      color:  hsl(228, 12%, 48%);
+}
+#button{
+    background-color: hsl(158, 36%, 37%);
+    border-radius: 0.5rem;
+    color: hsl(30, 38%, 92%);
+    border:none;
+    padding:0.5rem 4.5rem 0.7rem 4.5rem;
+    text-align: center;
+    
+}
+#button>svg{
+    margin-top:0.3rem;
+    margin-right:0.5rem;
+    height:15px;
+    position:relative;
+    color: hsl(30, 38%, 92%);
+}
+#section{
+    text-align: center;
+    margin-top:0.5rem;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    justify-self: flex-end;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
