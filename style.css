@@ -46,7 +46,7 @@ main{
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
     line-height: 1.6;
-    font-size:14px;
+    font-size:18px;
 }
 .text>h1{
     font-family: 'Fraunces', serif;
@@ -82,7 +82,7 @@ main{
 }
 
 .attribution{
-    font-size: 11px;
+    font-size: 13px;
     text-align: center;
     justify-self: flex-end;
 }
